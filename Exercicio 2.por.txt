@@ -1,0 +1,54 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		inteiro numero[10]
+		inteiro soma = 0
+		inteiro resultado = 0
+		real media
+		
+		
+		para (inteiro x = 0; x <= 10; x++ ){
+			escreva ("Informe o número", x+1 , "°: ")
+			leia (numero[x])
+			soma += numero[x]
+		}
+		limpa()
+		
+		escreva ("Elementos nos índices ímpares:")
+		para (inteiro x(0,10,2)) {
+			escreva (numero[x], ",")
+			
+			
+			}
+			
+		}
+		
+		escreva ("Elementos pares")
+		para (inteiro x = 0; x<= 10; x++){
+			se (numero[x] % 2 ==0) {
+				escreva (numero[x], ",")
+			}
+		}
+		
+		
+		
+		media = soma / 10 
+		limpa()
+		
+		
+		}
+			
+		}
+		
+
+		
+		
+		escreva ("Soma: ", soma)
+		escreva ("Media: ", media)
+
+
+	}
+	
+}
